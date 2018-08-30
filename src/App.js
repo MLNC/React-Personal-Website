@@ -93,7 +93,7 @@ function App(props) {
               <Paper elevation={0}>
                 <Grid container direction="column" alignItems="center" className={classes.paper}>
                   <Avatar
-                    alt="Profile Photo"
+                    alt="Yian Tong"
                     src="/photo.jpg"
                     className={classes.bigAvatar}
                   />
