@@ -7,6 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Icon from '@material-ui/core/Icon';
 import Chip from '@material-ui/core/Chip';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn, faGithub, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const styles = {
   page: {
@@ -73,6 +75,12 @@ const styles = {
   sectionBody: {
     marginTop: 5,
   },
+  socialIcon: {
+    color: "#777777",
+    marginLeft: 5,
+    marginRight: 5,
+    fontSize: 24,
+  },
 };
 
 function App(props) {
@@ -105,6 +113,13 @@ function App(props) {
                   <Typography variant="body2" className={classes.locAndEmail}>
                     <Icon className={classes.icon}>assignment</Icon> <a href="/resume.pdf">Download my resume</a>
                   </Typography>
+                  <Divider className={classes.divider} />
+                  <Grid item>
+                    <a href="https://www.linkedin.com/in/yiantong/" className={classes.socialIcon}><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                    <a href="https://github.com/MLNC" className={classes.socialIcon}><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href="https://www.facebook.com/yian.tong.3" className={classes.socialIcon}><FontAwesomeIcon icon={faFacebookF} /></a>
+                    <a href="https://www.instagram.com/aytytya/" className={classes.socialIcon}><FontAwesomeIcon icon={faInstagram} /></a>
+                  </Grid>
                   <Divider className={classes.divider} />
                   <Typography variant="body2" className={classes.thisWebsite}>
                     This website was built by <a href="https://reactjs.org/">React</a> and <a href="https://material-ui.com/">Material-UI</a>. The full source code can be found in <a href="https://github.com/MLNC/React-Personal-Website"> my Github repo</a>.
