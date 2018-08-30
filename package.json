@@ -2,6 +2,7 @@
   "name": "personalwebsite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://www.tongyian.com/",
   "dependencies": {
     "@material-ui/core": "^3.0.1",
     "react": "^16.4.2",
