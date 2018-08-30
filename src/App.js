@@ -107,7 +107,7 @@ function App(props) {
                   </Typography>
                   <Divider className={classes.divider} />
                   <Typography variant="body2" className={classes.thisWebsite}>
-                    This website was built by <a href="https://reactjs.org/">React</a> and <a href="https://material-ui.com/">Material-UI</a>. The full source code can be found in <a href=""> my Github repo</a>.
+                    This website was built by <a href="https://reactjs.org/">React</a> and <a href="https://material-ui.com/">Material-UI</a>. The full source code can be found in <a href="https://github.com/MLNC/React-Personal-Website"> my Github repo</a>.
                   </Typography>
                 </Grid>
               </Paper>
