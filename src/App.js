@@ -139,7 +139,7 @@ function App(props) {
                       Sitting at the intersection of technology, business, and design. <br />
                       Oftenly making new things, continuously making things better. <br />
                       I am a Computer Science master candidate at New York University Tandon School of Engineering. <br />
-                      A jonior Product Manager, Web Developer, Entrepreneur, Game Developer and Poker Player.
+                      A junior Product Manager, Web Developer, Entrepreneur, Game Developer and Poker Player.
                     </Typography>
                   </Grid>
 
