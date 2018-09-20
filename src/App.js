@@ -209,7 +209,7 @@ function App(props) {
                       </Grid>
                       <Grid item>
                         <Typography variant="subheading" className={classes.sectionSubheading}>
-                          Founder and CEO, Mech-O
+                          Founder, Mech-O
                         </Typography>
                         <Typography variant="body2" className={classes.sectionTime}>
                           January 2015 - December 2016, Shanghai, China
@@ -223,7 +223,7 @@ function App(props) {
                       </Grid>
                       <Grid item>
                         <Typography variant="subheading" className={classes.sectionSubheading}>
-                          Co-Founder and COO, DineLog
+                          Co-Founder, DineLog
                         </Typography>
                         <Typography variant="body2" className={classes.sectionTime}>
                           December 2013 - May 2015, Urbana, IL
