@@ -111,7 +111,7 @@ function App(props) {
                     <Icon className={classes.icon}>email</Icon> <a href="mailto:iiiantong@gmail.com">iiiantong@gmail.com</a>
                   </Typography>
                   <Typography variant="body2" className={classes.locAndEmail}>
-                    <Icon className={classes.icon}>assignment</Icon> <a href="/resume.pdf">Download my resume</a>
+                    <Icon className={classes.icon}>assignment</Icon> <a href="/Resume.pdf">Download my resume</a>
                   </Typography>
                   <Divider className={classes.divider} />
                   <Grid item>
@@ -192,7 +192,7 @@ function App(props) {
                           <Typography variant="body2" className={classes.sectionBody}>
                             Designed an air quality survey app for JTC Corporation(a state owned real estate company) from scratch, including the specification, system architecture and UI/UX. <br />
                             Designed and Developed the front-end app and proposed a multiple layer API. <br />
-                            The product is still in development and will be launched in Singapore in October 2018.
+                            The product is still in development and will be launched in Singapore in March 2019.
                           </Typography>
                         </Grid>
                       </Grid>
@@ -321,13 +321,6 @@ function App(props) {
                       <Icon className={classes.sectionIcon}>code</Icon> SKILLS
                     </Typography>
                     <Divider className={classes.sectionDivider}/>
-                    <Chip label="Leadership"/>
-                    <Chip label="Executive Force"/>
-                    <Chip label="Communication"/>
-                    <Chip label="Product Design"/>
-                    <Chip label="Product Management"/>
-                    <Chip label="UI/UX Design"/>
-                    <Chip label="Public Speaking"/> <br />
                     <Chip label="Python"/>
                     <Chip label="JavaScript"/>
                     <Chip label="Java"/>
@@ -337,6 +330,12 @@ function App(props) {
                     <Chip label="Autodesk Inventor"/>
                     <Chip label="Adobe Photoshop"/>
                     <Chip label="Latex"/> <br />
+                    <Chip label="Product Design"/>
+                    <Chip label="Product Management"/>
+                    <Chip label="UI/UX Design"/>
+                    <Chip label="Leadership"/>
+                    <Chip label="Executive Force"/>
+                    <Chip label="Communication"/> <br />
                     <Chip label="Chinese"/>
                     <Chip label="English"/>
                   </Grid>
