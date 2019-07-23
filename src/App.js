@@ -127,7 +127,7 @@ function App(props) {
                 </Typography>
                 <Typography variant="body2" className={classes.locAndEmail}>
                   <Icon className={classes.icon}>assignment</Icon>{" "}
-                  <a href="/Resume.pdf">Download my resume</a>
+                  <a href="/resume.pdf">Download my resume</a>
                 </Typography>
                 <Divider className={classes.divider} />
                 <Grid item>
