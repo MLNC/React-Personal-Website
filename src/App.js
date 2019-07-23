@@ -85,6 +85,9 @@ const styles = {
     marginLeft: 5,
     marginRight: 5,
     fontSize: 24
+  },
+  chip: {
+    margin: 2
   }
 };
 
@@ -109,6 +112,9 @@ function App(props) {
                 />
                 <Typography variant="headline" className={classes.name}>
                   Yian Tong
+                </Typography>
+                <Typography variant="body1" className={classes.title}>
+                  Freelance Developer
                 </Typography>
                 <Divider className={classes.divider} />
                 <Typography variant="body2" className={classes.locAndEmail}>
@@ -184,15 +190,45 @@ function App(props) {
                     design. <br />
                     Oftenly making new things, continuously making things
                     better. <br />
-                    Yian is a computer science master graduate at New York
-                    University Tandon School of Engineering. <br />A junior web
-                    developer, product manager, entrepreneur and Game Developer.
+                    Yian is a freelance developer graduate from New York
+                    University Tandon School of Engineering, master of computer
+                    science. <br />A web developer, product manager,
+                    entrepreneur and game developer.
                   </Typography>
                 </Grid>
 
                 <Grid item className={classes.section}>
                   <Typography variant="title" className={classes.sectionTitle}>
-                    <Icon className={classes.sectionIcon}>school</Icon>{" "}
+                    <Icon className={classes.sectionIcon}>code</Icon> SKILLS
+                  </Typography>
+                  <Divider className={classes.sectionDivider} />
+                  <Chip className={classes.chip} label="Python" />
+                  <Chip className={classes.chip} label="JavaScript" />
+                  <Chip className={classes.chip} label="NodeJS" />
+                  <Chip className={classes.chip} label="Java" />
+                  <Chip className={classes.chip} label="C#" />
+                  <Chip className={classes.chip} label="LaTex" /> <br />
+                  <Chip className={classes.chip} label="React" />
+                  <Chip className={classes.chip} label="React Native" />
+                  <Chip className={classes.chip} label="Git" />
+                  <Chip className={classes.chip} label="MySQL" />
+                  <Chip className={classes.chip} label="Android" />
+                  <Chip className={classes.chip} label="D3" />
+                  <Chip className={classes.chip} label="Express" />
+                  <Chip className={classes.chip} label="Unity" />
+                  <Chip className={classes.chip} label="Autodesk Inventor" />
+                  <Chip className={classes.chip} label="Adobe Photoshop" />{" "}
+                  <br />
+                  <Chip className={classes.chip} label="Product Management" />
+                  <Chip className={classes.chip} label="UI/UX Design" />
+                  <Chip className={classes.chip} label="Leadership" />
+                  <Chip className={classes.chip} label="Chinese" />
+                  <Chip className={classes.chip} label="English" />
+                </Grid>
+
+                <Grid item className={classes.section}>
+                  <Typography variant="title" className={classes.sectionTitle}>
+                    <Icon className={classes.sectionIcon}>school</Icon>
                     EDUCATION
                   </Typography>
                   <Divider className={classes.sectionDivider} />
@@ -223,8 +259,8 @@ function App(props) {
                         University of Illinois at Urbana-Champaign
                       </Typography>
                       <Typography variant="subheading">
-                        Bachelor of Engineering in General Engineering <br />
-                        Minor in Computer Science
+                        Bachelor of Engineering in General Engineering, Minor in
+                        Computer Science
                       </Typography>
                       <Typography
                         variant="body2"
@@ -250,7 +286,8 @@ function App(props) {
                           variant="subheading"
                           className={classes.sectionSubheading}
                         >
-                          Associate Product Manager, InnoPartner Pte Ltd
+                          Software Engineer Intern & Part-time, InnoPartner Pte
+                          Ltd
                         </Typography>
                         <Typography
                           variant="body2"
@@ -262,12 +299,14 @@ function App(props) {
                           variant="body2"
                           className={classes.sectionBody}
                         >
-                          Designed an air quality survey app for JTC Corporation
-                          from scratch, including the specification, system
-                          architecture and UI/UX. Developed a front-end
-                          prototype with React Native. <br />
-                          Designed and proposed a multiple layer API. <br />
-                          The product was launched in Singapore in March 2019.
+                          Designed an air quality survey app from scratch,
+                          including the specification, system architecture and
+                          UI/UX. <br />
+                          Implemented a front-end prototype alone by React
+                          Native to be used in the early customer product
+                          testing of 100. <br />
+                          Proposed a multiple layer API for production in terms
+                          of a 5000+ user scale.
                         </Typography>
                       </Grid>
                     </Grid>
@@ -276,48 +315,7 @@ function App(props) {
                         variant="subheading"
                         className={classes.sectionSubheading}
                       >
-                        Product Consultant, ReadMe
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        className={classes.sectionTime}
-                      >
-                        August 2018 - May 2019, Shanghai, China
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        className={classes.sectionBody}
-                      >
-                        Designed, developed and launched the first version of
-                        the website.
-                      </Typography>
-                    </Grid>
-                    <Grid item>
-                      <Typography
-                        variant="subheading"
-                        className={classes.sectionSubheading}
-                      >
-                        Technical Consultant, The Key School
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        className={classes.sectionTime}
-                      >
-                        July 2018 - May 2019, Shanghai, China
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        className={classes.sectionBody}
-                      >
-                        Reviewed the first version of the app technically.
-                      </Typography>
-                    </Grid>
-                    <Grid item>
-                      <Typography
-                        variant="subheading"
-                        className={classes.sectionSubheading}
-                      >
-                        Founder, Mech-O
+                        Creator, Mech-O Ltd
                       </Typography>
                       <Typography
                         variant="body2"
@@ -329,16 +327,23 @@ function App(props) {
                         variant="body2"
                         className={classes.sectionBody}
                       >
-                        Designed the initial prototype which allowed users to do
-                        simple hardware development. <br />
+                        Invented the building blocks (idea and hardware) in the
+                        school lab and brought them to the market. <br />
+                        Designed and developed a simplified cross-platform
+                        coding interface (like Blocky) with Unity, remodeled
+                        Arduino programming (C) and connected with the
+                        interface. <br />
+                        Designed, developed and launched a material design
+                        website in mid 2015 as one of the first React websites
+                        in China. <br />
                         Led team of eight(four engineers, two business
                         professionals, one designer, one tester) through more
                         than five iterations, redefining strategy and shifting
                         team to new vision. <br />
-                        Developed the product along with four engineers using
-                        Java, JavaScript, Python. <br />
-                        Revised the product according to the feedbacks from
-                        target users and potential investors.
+                        Attended over 20 road shows for fundraising, visited
+                        over 30 investors, including influential angel investors
+                        in China: Xiaoge Xiong, Xiaoping Xu(he provided
+                        recommendations for my grad school applications).
                       </Typography>
                     </Grid>
                     <Grid item>
@@ -346,7 +351,7 @@ function App(props) {
                         variant="subheading"
                         className={classes.sectionSubheading}
                       >
-                        Co-Founder, DineLog
+                        Creator & Android Developer, DineLog
                       </Typography>
                       <Typography
                         variant="body2"
@@ -358,14 +363,12 @@ function App(props) {
                         variant="body2"
                         className={classes.sectionBody}
                       >
-                        Designed the business model and the first iteration of
-                        the UI. <br />
-                        Developed the minimum viable product and initialized
-                        user experience tests. <br />
-                        Launched to Google Play and App Store in 2014
-                        (unpublished now) for beta test. 100 local users are
-                        involved. After interviewing all of them, we did two
-                        more iterations based on the feedbacks.
+                        Created a front-end Android app and initiated an alpha
+                        test with 100 local users involved. <br />
+                        Redesigned the business model, UI/UX and the App based
+                        on feedback for three iterations. Launched to Google
+                        Play and App Store in 2014 (unpublished now) for beta
+                        test.
                       </Typography>
                     </Grid>
                     <Grid item>
@@ -409,19 +412,23 @@ function App(props) {
                         variant="subheading"
                         className={classes.sectionSubheading}
                       >
-                        Leader, aMapGame
+                        Freelance Web Developer, Parnassus Productions Inc
                       </Typography>
                       <Typography
                         variant="body2"
                         className={classes.sectionTime}
                       >
-                        August 2018 - Present, New York, NY
+                        July 2019 - Present, New York, NY
                       </Typography>
                       <Typography
                         variant="body2"
                         className={classes.sectionBody}
                       >
-                        An ongoing game project will be launched on Kickstarter.
+                        Redesigning the website for world famous composer Tan
+                        Dun. <br />
+                        <a href="http://www.tandun.com/">
+                          http://www.tandun.com/
+                        </a>
                       </Typography>
                     </Grid>
                     <Grid item>
@@ -429,7 +436,30 @@ function App(props) {
                         variant="subheading"
                         className={classes.sectionSubheading}
                       >
-                        Technical Consultant, The Key School
+                        Freelance Developer, ReadMe Ltd
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className={classes.sectionTime}
+                      >
+                        August 2018 - October 2018, Shanghai, China
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        className={classes.sectionBody}
+                      >
+                        Reviewed the outsourced app (AngularJS), spotted 5+
+                        critical bugs and provided optimal advice. <br />
+                        Shortened 10% lines of the code and made the app 5%
+                        faster as a result.
+                      </Typography>
+                    </Grid>
+                    <Grid item>
+                      <Typography
+                        variant="subheading"
+                        className={classes.sectionSubheading}
+                      >
+                        Freelance Web Developer, The Key School
                       </Typography>
                       <Typography
                         variant="body2"
@@ -441,8 +471,9 @@ function App(props) {
                         variant="body2"
                         className={classes.sectionBody}
                       >
-                        Designed, developed and deployed the first version of
-                        the website. <br />
+                        Designed and launched the early version website with
+                        React, NodeJS, Express and Alibaba Cloud alone in 2
+                        weeks. <br />
                         <a href="http://www.keyschoolchina.com/">
                           http://www.keyschoolchina.com/
                         </a>
@@ -526,30 +557,6 @@ function App(props) {
                       </Typography>
                     </Grid>
                   </Grid>
-                </Grid>
-
-                <Grid item className={classes.section}>
-                  <Typography variant="title" className={classes.sectionTitle}>
-                    <Icon className={classes.sectionIcon}>code</Icon> SKILLS
-                  </Typography>
-                  <Divider className={classes.sectionDivider} />
-                  <Chip label="Python" />
-                  <Chip label="JavaScript" />
-                  <Chip label="Java" />
-                  <Chip label="C#" />
-                  <Chip label="React" />
-                  <Chip label="Unity" />
-                  <Chip label="Autodesk Inventor" />
-                  <Chip label="Adobe Photoshop" />
-                  <Chip label="Latex" /> <br />
-                  <Chip label="Product Design" />
-                  <Chip label="Product Management" />
-                  <Chip label="UI/UX Design" />
-                  <Chip label="Leadership" />
-                  <Chip label="Executive Force" />
-                  <Chip label="Communication" /> <br />
-                  <Chip label="Chinese" />
-                  <Chip label="English" />
                 </Grid>
               </Grid>
             </Paper>
