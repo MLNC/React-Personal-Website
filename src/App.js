@@ -465,7 +465,7 @@ function App(props) {
                         variant="body2"
                         className={classes.sectionTime}
                       >
-                        July 2018 - Present, Shanghai, China
+                        July 2018 - August 2018, Shanghai, China
                       </Typography>
                       <Typography
                         variant="body2"
